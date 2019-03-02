@@ -1,0 +1,35 @@
+.priceWrap{
+	padding:20px 0px 20px 40px; 
+}
+.addPriceWarp{
+	text-align: center;
+	margin: 10px auto;
+}
+.priceWrap .ant-table-thead tr th,.priceWrap .ant-table-tbody  tr   td{
+	text-align:center;
+	font-size: 14px;
+	padding:12px 8px;
+}
+.priceWrap .ant-table-row td{
+	text-align:center;
+}
+.inputPrice{
+	width:50px;
+}
+.priceWrap .ant-table-thead > tr > th{
+	background-color: #f6f8f8 !important;
+	color:#38434d !important;
+}
+.priceWrap .ant-table{
+	border-radius: 0;
+}
+.priceWrap .PriceSetBtn,.priceWrap .PriceSetBtn:hover{
+	background-color:#27c14c;
+	border-color:#27c14c;
+	border-radius:2px;
+	width:120px;
+}
+.priceWrap .PriceSetBtn:active{
+	background-color:#23ad43;
+	color:#222;
+}

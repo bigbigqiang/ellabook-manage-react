@@ -1,0 +1,144 @@
+#wrapper a{
+    display:block;
+    width:100%;
+    text-decoration: none;
+    color:#666;
+}
+#wrapper .clearfix:after{
+    content:"";
+    display:block;
+    width:100%;
+    height:0;
+    clear:both;
+}
+#wrapper{
+    width:100%;
+    max-width:435px;
+    min-width:300px;
+    margin:0 auto;
+    padding:12px;
+    color:#434345;
+}
+#wrapper .wrapperBg{
+    width:100%;
+    height:888px;
+    background: url("../../../assets/images/iphone_7.png");
+    background-size: 100% 100%;
+}
+#wrapper .wrapperCon{
+    width: 380px;
+    height: 758px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#wrapper .container{
+    margin: 120px 15px 10px 30px;
+    overflow-y: scroll;
+    height: 758px;
+    padding-bottom: 100px;
+}
+#wrapper .info{
+    padding:5px 0;
+}
+#wrapper .title{
+    font-size: 0.5rem;
+    padding-bottom: 5px;
+}
+#wrapper .time,
+#wrapper .author{
+    color:#999;
+}
+#wrapper .author{
+    color:#6a95c1;
+}
+#wrapper .content{
+    /* // text-indent: 0.5rem; */
+    line-height: 20px;
+    color:#676769;
+    /* // padding-top:20px; */
+    font-size: 16px;
+}
+#wrapper .content img{
+    /* // display: block; */
+    max-width: 100% !important;
+}
+#wrapper .cover .coverImg{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 5px auto 0;
+}
+#wrapper .recommend{
+    padding-top:10px;
+}
+#wrapper .recommend .item{
+    /*border:1px solid #dedede;*/
+    margin-top:5px;
+    padding:5px;
+    position: relative;
+}
+#wrapper .recommend .item .label{
+    overflow: hidden;
+    height: 27px;
+}
+#wrapper .recommend .item .label>span{
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 2px 5px;
+    margin-right: 2px;
+    display: inline-block;
+    height:27px;
+}
+#wrapper .recommend .bookCover{
+    float: left;
+    width:40%;
+    display:block;
+    height:175px;
+}
+#wrapper .recommend .bookRight{
+    float: left;
+    width: 60%;
+    padding: 0 0 0 15px;
+}
+#wrapper .recommend .bookRight .titleH3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 40px;
+    overflow: hidden;
+    height: 40px;
+}
+
+#wrapper .recommend .bookRight .synopsis{
+    padding-top:8px;
+    font-size: 13px;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+#wrapper .recommend .bookRight .details{
+    position: absolute;
+    bottom:0.1rem;
+    right: 0.3rem;
+    border: 1px solid #76bb7c;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color:#76bb7c;
+    font-size: 14px;
+    display: block;
+}
+#wrapper ul,li{
+    list-style: none;
+}
+#wrapper .container::-webkit-scrollbar{
+    background-color:transparent;
+}
+#wrapper .time{
+    margin-right:5px;
+}
+#wrapper .content section p{
+    font-size:14px !important;
+}

@@ -1,0 +1,50 @@
+/*图书——原著作者——作者编辑、添加*/
+
+.authorDetail{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+}
+
+.authorDetail .authorContent{
+	margin-left: 50px;
+	margin-top: 15px;
+	font-size: 14px;
+}
+.authorDetail .authorContent>div{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.authorDetail .authorContent>div>span,.authorDetail .authorContent>div>i{
+	margin-right: 30px;
+}
+.authorDetail .authorContent .m-jianjie{
+	position: relative;
+}
+.authorDetail .authorContent .m-jianjie span{
+	display: block;
+	position: absolute;
+	top: 3px;
+}
+.authorDetail .authorContent .m-jianjie .ant-input{
+	width: 500px !important;
+	height: 180px !important;
+}
+.authorDetail .authorContent .saveAuthorBtn{
+	display: block;
+	width: 121px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	background-color: #27C14C;
+	text-align: center;
+	border-radius: 2px;
+	margin-left: 234px;
+	margin-top: 200px;
+	cursor: pointer;
+}
+
+

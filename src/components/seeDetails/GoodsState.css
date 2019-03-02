@@ -1,0 +1,20 @@
+.goodsState{
+	padding:10px 0 20px 40px;
+}
+.goodsStateDel{
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.goodsState .ant-btn-primary{
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.goodsState .ant-btn-primary:hover{
+	background-color:#7265ba;
+	border-color:#7265ba;
+}
+.spanShow{
+	display: block;
+	min-width: 60px;
+	height: 20px;
+}

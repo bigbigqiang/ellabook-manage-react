@@ -1,0 +1,27 @@
+.comment-remarkVoices{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.comment-remarkVoices div{
+	width: 80px;
+	height: 20px;
+	margin: 11.5px auto 0 auto;
+	background-image: url(img/laba3.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: right;
+	cursor: pointer;
+	position: relative;
+}
+.comment-remarkVoices div span{
+	color: white !important;
+    padding-right: 10px;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+}

@@ -1,0 +1,70 @@
+.m-library-bd{
+    padding:0 20px;
+}
+.m-library-bd .m-select{
+    margin-top: 20px;
+}
+.m-library-bd .m-inSel{
+    float: left;
+    margin-right: 30px;
+}
+.m-expand-box{
+    overflow: hidden;
+    clear: both;
+  /*  margin-top: 10px;*/
+}
+.m-expand-box .u-select{
+    width: 20%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.m-expand-box .m-calendar{
+    width: 35%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.m-library-table{
+    padding: 0 20px;
+    clear: both;
+    margin-top: 10px;
+}
+.m-expand-box .u-select .ant-select{
+    margin-left: 20px;
+}
+.m-expand-box .m-calendar .ant-calendar-picker{
+    width: 32.2% !important;
+    margin: 0 20px;
+}
+.m-library-bd .u-btn{
+    font-size: 14px !important;
+    width: 120px;
+    height: 30px;
+    color: #fff !important;
+    background: #27c14c !important;
+}
+.m-library-bd .ant-btn:hover, .m-library-bd .ant-btn:focus{
+    border-color: #23ad43 !important;
+}
+.detail-modal .m-input,.m-label .m-input,.m-field .m-input{
+    line-height: 50px;
+}
+.detail-modal .u-txt{
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 20px !important;
+}
+.u-share{
+    float: left;
+    margin: 20px;
+}
+.g-library th.ant-table-column-sort{
+    background: #23b8e6 !important;
+}
+.show-select .ant-table-thead .ant-checkbox-wrapper{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: block;
+}

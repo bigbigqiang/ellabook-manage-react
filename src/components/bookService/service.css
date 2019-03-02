@@ -1,0 +1,80 @@
+#bookList .ant-form-item-control{
+    height: 39px;
+}
+.Deliver .ant-table-thead>tr>th,
+.Deliver .ant-table-tbody>tr>td{
+    text-align: center!important;
+    padding:12px 0;
+    font-size: 12px;
+    background:#fff;
+}
+.Deliver .ant-table-thead>tr>th{
+    background: #23b8e6!important;
+    color:#fff;
+    font-size: 14px;
+}
+.Deliver .ant-tabs-nav-scroll{
+    text-align: center;
+}
+.Deliver .u-btn-add{
+    margin-bottom: 0px!important;
+    background: #675ca8;
+    border: 1px solid #675ca8;
+    border-radius: 4px;
+}
+.Deliver .u-btn-add:focus,.Deliver .u-btn-add:hover{
+    color: #fff;
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+.label-visible .ant-form-item-label{
+    visibility: hidden;
+}
+.item-fn label{
+    font-size: 14px;
+}
+.item-fn .ant-btn-blue {
+    background-color: #27c14c;
+    border-color: #27c14c;
+}
+.item-fn .ant-input-group-wrapper{
+    margin-top: 0px;
+}
+.item-fn .ant-input-group-addon{
+    border: none;
+    background-color:#f0f3f4;
+}
+.item-fn .ant-btn-blue:hover{
+    background-color: #7265ba;
+    border-color: #7265ba;
+}
+.item-fn .ant-select .ant-select-selection--multiple{
+    min-height: 140px;
+}
+.clearfixs:after{
+    content: '';
+    display: block;
+    height:0;
+    clear:both;
+}
+.Deliver .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    overflow:hidden;
+    height:62px;
+}
+#topSearch .ant-input-group-addon{
+    padding:0px;
+    border:none;
+}
+#topSearch .ant-input-group-wrapper{
+    margin-top:-7px;
+}
+#topSearch .ant-btn-icon-only{
+    border-radius:0px;
+}
+#bookList .bookListLi{
+    margin-top:45px;
+}
+#bookList .ant-form-item-children{
+    display: block;
+    height: 100%;
+}

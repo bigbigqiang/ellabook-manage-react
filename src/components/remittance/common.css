@@ -1,0 +1,69 @@
+ .daily .ant-table-thead>tr>th{
+	background-color: #23b8e6!important;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding:12px;
+	border-bottom: 0px solid ;
+}
+.daily .ant-table-tbody>tr>td{
+	text-align: center;
+	font-size:12px;
+}
+.m-pagination {
+    display: inline-block;
+    margin: 20px!important;
+    float: right;
+}
+.daily .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+	overflow: hidden;
+    height: 70px;
+    padding-bottom: 0;
+    padding-right: 16px;
+    background-color: #23b8e6;
+}
+/* .daily .ant-table table{
+	min-height: 522px ;
+} */
+.daily .ant-table-pagination{
+	margin: 36px auto 0px;
+	text-align:right;
+    // margin-left: 33%;
+    // position: absolute;
+}
+/*.daily .ant-spin-container{
+	padding-bottom:122px;
+}*/
+.daily .ant-tabs-nav-wrap{
+	margin-top: 30px;
+}
+.daily .button{
+	border-color:#7265ba;
+	background-color:#7265ba;
+}
+.daily .button:active{
+	background-color:#6254b3;
+} 
+.daily .ant-table-tbody>tr>td{
+	padding: 12px 8px;
+}
+.daily .ant-table-header{
+	margin-bottom: -26px !important;
+}
+.daily .titit_operation{
+	text-indent: 20px;
+}
+.previewWrap{
+	width:435px;
+	height:888px;
+	background-image: url(../../assets/images/iphone_7.png) ;
+	background-size: 100% 100%;
+	margin:0 auto;
+}
+.previewWrap iframe{
+	width: 379px;
+    height: 670px;
+    position: relative;
+    top: 112px;
+    left: 28px;
+}

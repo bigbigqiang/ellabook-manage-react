@@ -1,0 +1,11 @@
+.ant-calendar-disabled-cell.ant-calendar-today .ant-calendar-date{
+    background-color: white;
+    color: #666;
+    font-weight: normal;
+}
+.u-btn-add-preview{
+    margin-left: 10px;
+}
+.preview{
+    top:20px !important;
+}

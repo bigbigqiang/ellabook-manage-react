@@ -1,0 +1,53 @@
+.course .title{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 8px;
+    font-size: 16px;
+}
+.course .box{
+    margin: 20px 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+}
+.course .box .subTitle{
+    line-height: 40px;
+    font-size: 16px;
+}
+.course .small_subTitle{
+    line-height: 32px;
+}
+.course .row{
+    margin-bottom: 24px;
+}
+.course .ant-upload-text{
+    display: none;
+}
+.course .ant-upload.ant-upload-select-picture-card,.course .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 300px;
+    height: 183.2px;
+}
+.course .img1 .ant-upload.ant-upload-select-picture-card,.course .img1 .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 150px;
+    height: 150px;
+}
+.course .img3 .ant-upload.ant-upload-select-picture-card,.course .img3 .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 100px;
+    height: 100px;
+}
+.course .say{
+    color: red;
+}
+.courseVideo{
+    position: relative;
+}
+.courseVideo input{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}

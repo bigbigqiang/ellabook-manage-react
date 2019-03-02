@@ -1,0 +1,159 @@
+/*评论主页*/
+.BookComment{
+	width: 100%;
+	background-color: #EDF1F2;
+	min-width: 1060px;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+}
+.commentAllTitle{
+	height: 45px;
+	line-height: 44px;
+	padding-left: 20px;
+	border-bottom: 1px solid #E0E2E2;
+	font-size: 16px;
+	color: #1D2B37;
+}
+.BookComment .g-comSerch{
+	width: 100%;
+	
+	padding-left: 30px;
+	overflow: hidden;
+}
+.BookComment .g-comSerchTiy{
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0px 20px 30px;
+	text-align: left;
+}
+
+.BookComment .g-comTable{
+	width: 100%;
+	padding: 0px 30px;
+}
+.BookComment .g-comTable .paixu{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: right;
+	background-color: #F0F3F4;
+	margin-top: 20px;
+	padding-right: 15px;
+}
+.BookComment .g-comTable .paixu .paixuIn{
+	display: inline-block;
+}
+
+.BookComment .g-sortTable{
+	width: auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 47px;
+}
+.BookComment .t-nm-tab{
+	border-left: 1px solid #DDE5E7;
+}
+
+.BookComment .t-nm-tab .ant-table-thead>tr>th{
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	padding: 0 !important;
+}
+
+.BookComment .t-nm-tab td{
+	font-size: 12px;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.BookComment .commentOpate > i{
+	font-size: 21px;
+	color: #7E8A94;
+}
+
+.BookComment .commentDelete{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.BookComment .commentDelete span{
+	display: block;
+	width: 16px;
+	height: 18px;
+	background-image: url(img/book_delete.png);
+	background-size: 100% 18px;
+	background-repeat: no-repeat;
+	margin-top: 1.5px;
+}
+
+.BookComment .solutionStar{
+	font-size: 22px;
+	color: #7D8A93;
+}
+.BookComment .theSearch{
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	background-color: #27C14C;
+	color: white;
+	margin-left: 70px;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+}
+.BookComment .setSelect{
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	background-color: #27C14C;
+	color: white;
+	
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+}
+.BookComment .tinySearchContent {
+	display: inline-block;
+	width: 245px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #D9D9D9;
+	background-color: white;
+	outline: none;
+	margin-left: 40px;
+	border-radius: 32px;
+	font-size: 12px;
+	padding-left: 15px;
+}
+
+.BookComment .addRemarkBtn{
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-color: #27C14C;
+	color: transparent;
+	
+	font-size: 14px;
+	cursor: pointer;
+	background-image: url(img/addSolution.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}

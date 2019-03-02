@@ -1,0 +1,50 @@
+/*图书——动画书作者——作者编辑、添加*/
+
+.ellaAuthorDetail{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+}
+
+.ellaAuthorDetail .authorTitle{
+	height: 67px;
+	line-height: 67px;
+	padding-left: 21px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E0E2E2;
+	font-size: 16px;
+	background-color: #EDF1F2;
+}
+.ellaAuthorDetail .authorTitle a{
+	color: #35404A;
+}
+.ellaAuthorDetail .authorContent{
+	margin-left: 92px;
+	margin-top: 42px;
+	font-size: 14px;
+}
+.ellaAuthorDetail .authorContent>div{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.ellaAuthorDetail .authorContent>div>span{
+	margin-right: 30px;
+}
+.ellaAuthorDetail .authorContent .saveAuthorBtn{
+	display: block;
+	width: 121px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	background-color: #27C14C;
+	text-align: center;
+	border-radius: 2px;
+	margin-left: 57px;
+	margin-top: 64px;
+	cursor: pointer;
+}
+
+

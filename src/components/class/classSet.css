@@ -1,0 +1,19 @@
+.classSet .classSet_col{
+    text-align: center;
+}
+.classSet .special{
+    padding-top: 5px;
+}
+.classSet .right{
+    text-align: right;
+}
+.classSet .row{
+    margin-bottom: 24px;
+}
+.classSet .small_subTitle{
+    line-height: 32px;
+}
+.chapterIntroRelationList .avatar-uploader, .chapterIntroRelationList .avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+}

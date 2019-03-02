@@ -1,0 +1,22 @@
+.listenBookResources{
+    min-width: 1050px;
+}
+.listenBookResources .search{
+    padding-left: 20px;
+}
+.listenBookResources .searchMore{
+    padding: 20px 20px;
+    /* height: 150px; */
+    /* background-color:#555; */
+    margin: 0px 20px;
+    border-bottom: 1px solid #999;
+}
+.listenBookResources .searchMore .searchMoreTwo{
+    padding: 20px 0px 0px 0px;
+}
+.listenBookResources .searchMore .centerH{
+    padding: 0px 10px;
+}
+.listenBookResources  .tableWrap{
+    padding: 20px;
+}

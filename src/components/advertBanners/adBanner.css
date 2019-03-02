@@ -1,0 +1,47 @@
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+    width: 400px;
+    height: 200px;
+    background: #edf1f2;
+    display: block;
+}
+.avatar-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}
+.m-lt{
+
+}
+.m-rt{
+    width: 550px;
+}
+.ant-upload-select-picture-card i {
+    font-size: 28px;
+    color: #dde5e7;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+}
+.m-lt-upload .ant-upload-list-picture-card .ant-upload-list-item,.m-lt-upload .ant-upload-select-picture-card{
+    width: 400px !important;
+    height:200px !important;
+}
+.upLoad-center{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ant-input-group-wrapper{
+    margin-top: 24px;
+}
+.su-pop .ant-modal{
+    width: 656px !important;
+}

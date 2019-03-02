@@ -1,0 +1,141 @@
+/*图书——动画书作者*/
+.ellaAuthor{
+	width: 100%;
+	background-color: #F0F3F4;
+	min-width: 1060px;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+	overflow: hidden;
+	position: relative;
+}
+.ellaAuthor .ellaAuthorTop{
+	width: 100%;
+
+	margin-top: 20px;
+	position: relative;
+	padding-left: 180px;
+}
+.ellaAuthor .ellaAuthorTop .addellaAuthor{
+	width: 130px;
+	height: 30px;
+	background-image: url(img/addAuthor1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 20px;
+	/*top: 3px;*/
+	cursor: pointer;
+}
+
+/*搜索条的样式*/
+
+
+
+.ellaAuthor .ellaAuthorTop .ant-input:focus{
+	outline: none;
+	box-shadow:none;
+}
+.ellaAuthor .ellaAuthorTop .ant-input:hover{
+	outline: none;
+	box-shadow:none;
+}
+
+
+
+
+
+.ellaAuthor .ellaAuthorTable{
+	padding: 0px 20px 0px 20px;
+	margin-top: 20px;
+}
+.ellaAuthor .ellaAuthorTable Table{
+	width: 100%;
+	border: 1px solid #DDE5E7;
+	border-bottom: none;
+	border-top: none;
+}
+.ellaAuthor .ellaAuthorTable Table td{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.ellaAuthor .ellaAuthorTable .ant-table-thead > tr > th{
+	width: 20%;
+	font-weight: normal;
+	color: white !important;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #DDE5E7;
+	padding: 0;
+	margin: 0;
+	border-radius: none;
+	border: none;
+	text-align: center;
+}
+.ellaAuthor .ellaAuthorTable .ant-table-tbody > tr > td{
+	width: 20%;
+	font-size: 12px;
+	font-weight: normal;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid #DDE5E7;
+	padding: 0;
+	margin: 0;
+	padding-top: 11.5px !important;
+	padding-bottom: 11.5px !important;
+}
+.ellaAuthor .ellaAuthorTable .ant-table-thead > tr > th{
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+}
+
+
+.ellaAuthor .ellaAuthorTable{
+	width: 100%;
+	position: rellative;
+}
+.ellaAuthor .ellaAuthorTable .paixu{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	text-align: right !important;
+	background-color: #F0F3F4;
+	margin-top: 20px;
+	padding-right: 15px;
+}
+.ellaAuthor .ellaAuthorTable .paixu .paixuIn{
+	display: inline-block !important;
+}
+
+
+
+.ellaAuthor .g-ellaEdit, .ellaAuthor .g-ellaDelete{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: rellative;
+	top: 6px;
+	cursor: pointer;
+}
+.ellaAuthor .g-ellaEdit{
+	background-image: url(img/book_bianji.png);
+	margin-right: 140px;
+}
+.ellaAuthor .g-ellaDelete{
+	background-image: url(img/book_delete.png);
+	width: 16px;
+}
+.ellaAuthor .title{
+	font-size: 16px;
+    border-bottom: 1px solid #e0e2e2;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}

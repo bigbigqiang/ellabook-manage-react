@@ -1,0 +1,18 @@
+.part4{
+    width: 100%;
+    /* height: 270px; */
+    background-color: #fff;
+    padding: 10px 0px;
+     margin-bottom: 5px;
+}
+.part4_top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.part4_top .title{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}

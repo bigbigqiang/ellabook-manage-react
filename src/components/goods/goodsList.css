@@ -1,0 +1,132 @@
+.goodsListBox{
+	
+}
+.goodsListTitle{
+	line-height: 50px;
+	border-bottom: 1px solid #e3e6e6;
+	text-indent: 20px;
+}
+.rowPartWrap{
+	padding:40px 60px 40px 60px;
+}
+.rowPart{
+	padding: 10px 0;
+}
+.line{
+	color:#a9adb1;
+	line-height:30px;
+}
+.colTitle{
+	line-height:30px;
+	font-size: 16px;
+}
+hr{
+	border:none;
+	height: 1px;
+	background-color: #e3e6e6;
+}
+.goodsListBox .ant-table-thead > tr > th{
+	background-color:#23b8e6 !important;
+}
+
+.rowPartWrap2{
+	padding:20px 60px 50px 60px;
+}
+.rowPartWrap3{
+	position: relative;
+	padding:0px 20px 0px 20px;
+}
+.submitWrap{
+	padding:30px 0px 30px 30px;
+	position: absolute;
+	bottom:40px;
+}
+#goodsListAdd2{
+	margin-left: 100px;
+}
+#goodsListAdd3{
+	margin-left: 100px;
+}
+.rowPartWrap3 .ant-table-thead > tr > th, .rowPartWrap3 .ant-table-tbody > tr > td{
+	text-align: center;
+}
+.rowPartWrap3 .ant-table-thead > tr > th{
+	font-size:14px;
+	color:white;
+}
+// .paginationWrap{
+// 	position: relative;
+// 	left:35%;
+// 	width:65%;
+// 	botton:100px;
+// 	padding-bottom: 30px;
+// 	padding-top: 30px;
+// }
+.paginationWrap{
+	position: absolute;
+	bottom:-100px;
+	left:30%;
+	padding-bottom:50px;
+}
+.rowPartWrap3{
+	min-height: 420px;
+}
+.adjustment{
+	// width:65%;
+	// position: absolute;
+	// bottom:100px;
+}
+.ant-btn-primary{
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.ant-btn-primary:hover{
+	background-color:#7265ba;
+	border-color:#7265ba;
+}
+.checkbuttonWrap{
+	text-align:center;
+}
+.checkbutton{
+	// float: left;
+}
+.goodsListBox .ant-pagination-item-active{
+	background-color:#27c14c;
+	border-color:#27c14c;
+}
+.goodsListBox .ant-btn-primary{
+	border-radius:0px;
+	width:120px;
+}
+.goodsListBox .ant-calendar-picker{
+	margin: 0;
+}
+.ant-modal-footer button + button{
+	display: none;
+}
+//°´Å¥ÑùÊ½
+#goodsListQuery,#goodsListQuery2{
+	background-color:#27c14c;
+	border-color:#27c14c;
+	border-radius:2px;
+}
+#goodsListQuery:active,#goodsListQuery2:active{
+	background-color:#23ad43;
+	color:#222;
+}
+#goodsListAdd,#goodsListAdd2,#goodsListAdd3{
+	background-color:#7265ba;
+	border-color:#7265ba;
+	border-radius:2px;
+}
+#goodsListAdd:active,#goodsListAdd2:active,#goodsListAdd3:active{
+	background-color:#6154b2;
+	color:#222;
+}
+.checkbuttonWrap .ant-btn-primary{
+	border-radius:2px;
+	width: 120px;
+}
+.rowPartWrap3 .ant-table-tbody > tr > td{
+	padding:12px;
+}

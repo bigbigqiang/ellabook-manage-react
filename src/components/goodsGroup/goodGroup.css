@@ -1,0 +1,14 @@
+
+#goodsGroup .labelSpan{
+    font-weight: bold;
+    padding-right: 10px;
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+}
+#goodsGroup .ellipsisSpan{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1;
+}

@@ -1,0 +1,20 @@
+.addFeadChuDetail{
+	width: 100%;
+}
+.addFeadChuDetail .feadChuDetailCon{
+	overflow: hidden;
+	margin-left: 10px;
+	width: 100%;
+}
+.addFeadChuDetail .feadChuDetailCon > div{
+	float: left;
+	width: 20%;
+	font-size: 12px;
+}
+.addFeadChuDetail .feadChuDetailCon > div:nth-child(3){
+	color: #4297FF;
+}
+.addFeadChuDetail .feadChuDetailCon > div:nth-child(4){
+	float: left;
+	width: 40%;
+}

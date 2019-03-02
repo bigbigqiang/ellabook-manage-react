@@ -1,0 +1,171 @@
+.m-edit-bd{
+    padding: 30px 0 30px 60px;
+}
+.m-edit-bd .m-input,.m-label .m-input,.m-field .m-input{
+    line-height: 50px;
+}
+.m-label,.m-field{
+    margin: 0 30px;
+    padding: 30px 0 30px 30px;
+    border-top: 1px solid #ddd;
+}
+.m-label .m-textArea{
+    resize: none;
+    width: 740px;
+    height: 124px;
+}
+.m-label .u-pic{
+    width: 108px;
+    height: 176px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #edf1f2;
+    position: relative;
+}
+.m-label img{
+    width: 100%;
+    height: 100%;
+}
+.m-field{
+
+}
+.m-input .u-label{
+    display: inherit;
+    width: 57px;
+    height: 22px;
+    background: #108ee9;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.m-input .u-label input{
+    display: none;
+}
+.m-input label>.anticon{
+    vertical-align: middle;
+}
+.m-edit-bd .ant-checkbox-group,.m-edit-bd .ant-radio-group,.m-label .ant-checkbox-group,.m-label .ant-radio-group,.m-field .ant-checkbox-group,.m-field .ant-radio-group{
+    line-height: 50px;
+}
+
+
+/*2018 01 05 made by niepengfei*/
+.editBookPage{
+	width: 100%;
+	height: auto;
+	min-width: 1060px;
+}
+
+.editBookPage .g-saveBtn{
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	background-color: #27C14C;
+	border-radius: 2px;
+	margin: 25px auto auto auto;
+	cursor: pointer;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	z-index: 20;
+}
+.editBookPage .m-label .u-cover{
+    width: 119.813px;
+    height: 160px;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #edf1f2;
+    float: left;
+    margin-right: 12px;
+}
+.editBookPage .m-label .u-pic{
+    width: 257.777px;
+    height: 145px;
+    padding: 7px;
+    background: #fff;
+    border: 1px solid #edf1f2;
+    float: left;
+    margin-right: 5px;
+}
+
+.editBookPage .m-label .u-cover img{
+	width: 100%;
+}
+
+.editBookPage .f-bookTanImg{
+	text-align: center;
+}
+.editBookPage .f-bookTanImg img{
+	width: 100%;
+}
+.editBookPage .f-bookTanImg1{
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.editBookPage .f-bookTanImg1 img{
+	width: 100%;
+}
+
+.editBookPage .m-bookImgOut{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.editBookPage .ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.editBookPage .ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.editBookPage .bianju{
+	width: 30px;
+	height: 120px;
+	display: inline-block;
+}
+.editBookPage .imgMengBan{
+	width: 241px;
+	height: 129px;
+	line-height: 129px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 7px;
+	z-index: 10;
+	display: none;
+	color: white;
+}
+.editBookPage .imgMengBan1{
+	width: 102px;
+	height: 139px;
+	line-height: 139px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 7px;
+	z-index: 10;
+	display: none;
+	color: white;
+}
+.m-label .u-pic:hover .imgMengBan{
+	display: block;
+}
+.m-label .u-cover:hover .imgMengBan1{
+	display: block;
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+#addDutyLib .ant-form-item-label{
+    text-align: left;
+    width:110px;
+}
+
+#addDutyLib form{
+    padding-left:20px;
+}
+#taskLibraryImg .ant-spin-nested-loading{
+    width:104px;
+    float:left;
+}
+#paramsConfig .ant-form-item-control-wrapper{
+    display:inline-block;
+}
+#paramsConfig .bookAndBen .ant-form-item{
+	display:inline-block;
+}
+

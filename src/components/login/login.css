@@ -1,0 +1,151 @@
+.loginContainer {
+	width: 100%;
+	height: 100%;
+	min-width: 1060px;
+	min-height: 695px;
+	background: url(img/login-banner.png) no-repeat;
+	background-size: 100% 100%;
+	padding: 0;
+	margin: 0;
+	font-family: '微软雅黑', sans-serifa;
+	position: absolute;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+}
+
+.loginContainer .main {
+	width: 406px;
+	position: absolute;
+	top: 34%;
+	left: 50%;
+	margin-left: -203px;
+}
+
+.loginContainer .logo {
+	width: 406px;
+	height: 135px;
+	margin-bottom: 65px;
+	background: url(img/login-name.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.loginContainer .inputOut {
+	width: 280px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.loginContainer .inputOut input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background-color: none;
+	padding-left: 30px;
+	font-size: 21px;
+	color: black;
+}
+
+.loginContainer #loginBtn {
+	background-color: #26C14B;
+	color: white;
+	font-size: 21px;
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+.loginContainer .main .ant-modal-content{
+	z-index: 1500 !important;
+	top: 200px !important;
+}
+.loginContainer .main .ant-modal-mask {
+	background-color: transparent;
+}
+.loginContainer .alertMess{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 40px;
+	text-align: center;
+	color: white;
+	font-size: 17px;
+	background-color: rgba(153,153,153,0.9);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -100px;
+	display: none;
+}
+
+
+.m-wrap-loading {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #fff;
+	z-index: 9999;
+}
+
+.m-wrap-loading>div {
+	background-color: #4dbcc8;
+	height: 70px;
+	width: 6px;
+	display: inline-block;
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+	animation: stretchdelay 1.2s infinite ease-in-out;
+	margin-top: 48vh;
+	margin-left: 4px;
+}
+
+.m-wrap-loading .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.m-wrap-loading .rect3 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+.m-wrap-loading .rect4 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.m-wrap-loading .rect5 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+@-webkit-keyframes stretchdelay {
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.4)
+	}
+	20% {
+		-webkit-transform: scaleY(1.0)
+	}
+}
+
+@keyframes stretchdelay {
+	0%,
+	40%,
+	100% {
+		transform: scaleY(0.4);
+		-webkit-transform: scaleY(0.4);
+	}
+	20% {
+		transform: scaleY(1.0);
+		-webkit-transform: scaleY(1.0);
+	}
+}

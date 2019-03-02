@@ -1,0 +1,13 @@
+.classIndex .title{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 8px;
+    font-size: 16px;
+}
+.classIndex .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+    padding-right: 16px;
+    overflow: hidden;
+    height: 46px;
+    margin-bottom: 0!important;
+    background: #23b8e6;
+}

@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serif;
+}
+.shopDetail{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	min-width: 1060px;
+	overflow: hidden;
+}
+
+.shopDetail .shopTop{
+	height: 210px;
+	margin: 25px 50px 20px 50px;
+	position: relative;
+	z-index: 100;
+}
+.shopDetail .shopTop .turnLeft{
+	width: 20px;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -17.5px;
+	background-image: url(img/left.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.shopDetail .shopTop .turnRight{
+	width: 20px;
+	height: 35px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -17.5px;
+	background-image: url(img/right.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+.shopDetail .shopTop .childList{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.shopDetail .shopTop .childList .childListIn{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 50;
+	overflow: hidden;
+}
+
+.childOut{
+	width: 200%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 50;
+	left:0;
+	transition: all 1.5s ease 0s;
+}
+
+/*.slick-dots{
+	display:none!important;
+}*/
+.shopBottom{
+	margin: 25px 30px 0 30px;
+}
+.shopBottom .tableTitle{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	border: 1px solid #DDE5E7;
+	font-size: 14px;
+	padding-left: 30px;
+	background-color: #F6F8F8;
+}
+.shopBottom Table{
+	width: 100%;
+	border-top: none;
+}
+.shopBottom Table td{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.shopBottom .ant-table{
+	border-radius: 0px !important;
+	border-top: none !important;
+}
+.shopBottom .ant-table-thead > tr > th, .shopBottom .ant-table-tbody > tr > td{
+	width: 25%;
+	font-size: 12px;
+	font-weight: normal;
+	height: 42px;
+	line-height: 42px;
+	padding: 0;
+	margin: 0;
+	border-radius: none;
+	border: none;
+	text-align: center;
+}
+.shopBottom .ant-table-tbody > tr > td{
+	box-sizing: border-box;
+	border-bottom: 1px solid #DDE5E7 !important;
+}
+.shopBottom .ant-table-thead > tr > th{
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+}
+.shopBottom .paixu{
+	margin: 10px auto 10px auto;
+	width: auto;
+	text-align: right;
+	padding-right: 15px;
+}
+.shopBottom .paixu .paixuIn{
+	display: inline-block;
+}
+
+/*隐藏表格右侧滚动条*/
+.shopBottom .t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    height: 46px;
+}
+
+.shopBottom .t-nm-tab .ant-table-body{
+	border: 1px solid #E8E8E8;
+	border-top: none;
+}
+/*这是孩子卡片部分*/
+.childCard{
+	width: 16%;
+	height: 100%;
+	border: 1px solid #E4EAEC;
+	box-sizing: border-box;
+	float:left;
+	transition: 1s;
+	cursor: pointer;
+	margin-right:1%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.cardTitle{
+	width: 100%;
+	overflow: hidden;
+	flex: 1;
+}
+.childCard:nth-child(3n){
+	margin-right:0;
+}
+.childCard .cardTitle .cardImage{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.childCard .cardTitle .cardImage img{
+	width: 100%;
+	height: 100%;
+}
+.childCard .cardTitle .cardName{
+	width: 60%;
+	font-size: 15px;
+	position: relative;
+	top: -38px;
+	left: 92px;
+}
+
+.childCard .cardContent{
+	width: auto;
+	height: auto;
+	list-style: none;
+	padding-top: 8px;
+	flex: 2;
+}
+.childCard .cardContent li{
+	width: auto;
+	height: 38px;
+	line-height: 38px;
+	font-size: 15px;
+	list-style: none;
+}
+.childCard .getChildCid{
+	display: none;
+}
+.childCard title{
+	display: inline-block;
+	width: 100px;
+}
+

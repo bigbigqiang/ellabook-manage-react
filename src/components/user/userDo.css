@@ -1,0 +1,82 @@
+.userDo{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	min-width: 1060px;
+	overflow: hidden;
+}
+
+.userDo .userDoIn{
+	width: auto;
+	margin: 50px 30px auto 30px;
+}
+
+
+.userDo Table{
+	width: 100%;
+	border: 1px solid #DDE5E7;
+	border-bottom: none;
+}
+.userDo Table td{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.userDo .ant-table{
+	border-radius: 0px !important;
+	border-top: none !important;
+}
+.userDo .ant-table-thead > tr > th{
+	font-size: 12px;
+	font-weight: normal;
+	color: black !important;
+	padding: 0;
+	margin: 0;
+	border-radius: none;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #DDE5E7;
+	text-align: center;
+	color: white !important;
+}
+.userDo .ant-table-tbody > tr > td{
+	background-color: white !important;
+	font-size: 12px;
+	font-weight: normal;
+	color: black !important;
+	height: 20px;
+	line-height: 20px;
+	padding: 0;
+	margin: 0;
+	border-radius: none;
+	border: none;
+	padding-top: 11.5px !important;
+	padding-bottom: 11.5px !important;
+}
+.userDo .ant-table-thead > tr > th{
+	font-size: 14px;
+	height: 46px;
+	line-height: 46px;
+}
+.userDo .paixu{
+	margin: 25px auto;
+	width: auto;
+	text-align: center;
+}
+.userDo .paixu .paixuIn{
+	display: inline-block;
+}
+
+/*隐藏表格右侧滚动条*/
+.userDo .t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    height: 54px;
+}
+
+.userDo .classifySort .t-nm-tab .ant-table-body{
+	border-right: 1px solid #E8E8E8;
+}

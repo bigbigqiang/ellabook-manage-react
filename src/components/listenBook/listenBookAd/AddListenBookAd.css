@@ -1,0 +1,19 @@
+#AddListenBookAds .ant-upload.ant-upload-select-picture-card,#AddListenBookAds .ant-upload-list-picture-card .ant-upload-list-item{
+    height: 65px !important;
+    width: 337px !important;
+}
+#AddListenBookAds .left{
+    width: 380px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+#AddListenBookAds .right{
+    width: 600px;
+    padding-left: 30px;
+    float: left;
+}
+#ListenBookAds .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    overflow: hidden;
+    padding-bottom:20px!important;
+}

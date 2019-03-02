@@ -1,0 +1,63 @@
+/*这是孩子卡片部分*/
+.childCard{
+	width: 16%;
+	height: 100%;
+	border: 1px solid #E4EAEC;
+	box-sizing: border-box;
+	float:left;
+	transition: 1s;
+	cursor: pointer;
+	margin-right:1%;
+}
+
+.childCard .cardTitle{
+	width: 100%;
+	height: 75px;
+	border-bottom: 1px solid #E4EAEC;
+	background-color: #F0F3F4;
+	overflow: hidden;
+}
+.childCard:nth-child(3n){
+	margin-right:0;
+}
+.childCard .cardTitle .cardImage{
+	width: 50px;
+	height: 50px;
+	background-color: #FCDF5C;
+	border-radius: 50px;
+	margin: 13px 0 0 18px;
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.childCard .cardTitle .cardImage img{
+	width: 100%;
+	height: 100%;
+}
+.childCard .cardTitle .cardName{
+	width: 60%;
+	font-size: 15px;
+	position: relative;
+	top: -38px;
+	left: 92px;
+}
+
+.childCard .cardContent{
+	width: auto;
+	height: auto;
+	list-style: none;
+	padding-left: 55px;
+	padding-top: 8px;
+}
+.childCard .cardContent li{
+	width: auto;
+	height: 38px;
+	line-height: 38px;
+	font-size: 15px;
+	list-style: none;
+}
+.childCard .cardContent li span{
+	margin-left: 50px;
+}
+.childCard .getChildCid{
+	display: none;
+}

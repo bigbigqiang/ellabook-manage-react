@@ -1,0 +1,55 @@
+.sendBook{
+	width: 900px;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.sendBook .sendLeft,.sendBook .sendRight,.sendBook .sendCenter{
+	float: left;
+}
+.sendBook .sendLeft,.sendRight{
+	width: 40%;
+	height: 500px;
+}
+
+.sendBook .sendCenter{
+	width: 20%;
+	height: 500px;
+	text-align: center;
+}
+
+.sendBook .sendAllOk,.sendBook .sendAllNo{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #27C14C;
+	color: white;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	display: inline-block;
+}
+.sendBook .sendAllOk{
+	margin-top: 190px;
+}
+.sendBook .sendAllNo{
+	margin-top: 70px;
+}
+
+.sendBook .sendSaves{
+	width: 120px;
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	background-color: #27C14C;
+	color: white;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	margin-top: 67px;
+	margin-left: 389px;
+	float: left;
+}

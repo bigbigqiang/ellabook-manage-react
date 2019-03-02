@@ -1,0 +1,45 @@
+.red .ant-table-thead>tr>th{
+	background-color: #23b8e6!important;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	padding:12px;
+	border-bottom:0px solid;
+}
+.red .ant-table-tbody>tr>td{
+	text-align: center;
+	font-size:12px;
+	padding:12px 8px;
+}
+.red .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+	overflow: hidden;
+    height: 70px;
+    padding-bottom: 0;
+    padding-right: 16px;
+    background-color: #23b8e6;
+}
+.red .ant-tabs-nav-wrap{
+	margin-top: 0px;
+}
+.red .button{
+	border-color:#675ca8;
+	background-color:#675ca8;
+}
+.red .button:hover{
+	border-color:#40a9ff;
+	background-color:#40a9ff;
+}
+.red .ant-table-pagination{
+	width: 100%;
+    text-align: right;
+    margin-left: 0px;
+}
+.red .ant-tabs-nav-scroll{
+	text-align: center;
+}
+.red .ant-table-header{
+	margin-bottom: -26px !important;
+}
+.red .red_4{
+	min-width: 80px;
+}

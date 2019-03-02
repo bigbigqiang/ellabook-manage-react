@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+.add-active-btn{
+    /*width: 120px !important;*/
+    background-color: #7265ba;
+    border-color: #7265ba;
+    border-radius: 2px;
+    margin: 20px 0 0 20px;
+}
+.m-sign-bd{
+    padding:0 20px;
+}
+.m-sign-bd .m-inSel{
+    float: left;
+    margin: 20px 30px 15px 0;
+}
+.m-sign-table{
+    margin-bottom: 10px;
+
+}

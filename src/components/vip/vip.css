@@ -1,0 +1,55 @@
+#Vip .ant-table-thead>tr>th,
+#Vip .ant-table-tbody>tr>td{
+    text-align: center!important;
+    font-size: 12px;
+    padding:12px 0;
+    background-color:white;
+}
+#vip .ant-table-tbody{
+    background-color:white;
+}
+#Vip .ant-table-thead>tr>th{
+    background: #23b8e6!important;
+    color:#fff;
+    font-size: 14px;
+}
+#Vip .u-btn-add{
+    margin-bottom: 0px!important;
+    background: #675ca8;
+    border: 1px solid #675ca8;
+    border-radius: 4px;
+}
+#Vip .u-btn-add:focus,#Vip .u-btn-add:hover{
+    color: #fff;
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+#Vip .ant-btn-days .ant-radio-button-wrapper-checked{
+    background: #108ee9;
+    color:#fff;
+}
+#Vip .ant-btn-days .ant-radio-button-wrapper{
+    margin-right:20px;
+    height:30px;
+    line-height: 28px;
+    padding:0 20px;
+}
+#input-pl::-webkit-input-placeholder{
+    color:#666;
+}
+.item-fn label{
+    font-size: 14px;
+}
+#Vip .ant-col-offset-3{
+    margin-top: -12px;
+}
+#Vip .submit {
+    margin-top:24px;
+}
+#Vip .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    overflow: hidden;
+    height: 62px;
+    padding-right: 16px;
+    background-color: #23b8e6;
+    border-radius: 4px;
+}

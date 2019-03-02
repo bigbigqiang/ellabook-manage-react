@@ -1,0 +1,36 @@
+.goodsState{
+	padding:20px 0px 60px 40px;
+}
+.goodsStateDel{
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.spanShow{
+	display: block;
+	min-width: 60px;
+	height: 20px;
+}
+.ant-select{
+	margin-left: 0px;
+}
+.goodsState .goodsStateModify{
+	background-color:#27c14c;
+	border-color:#27c14c;
+	border-radius:2px;
+	width:120px;
+}
+.goodsState .goodsStateModify:active{
+	background-color:#23ad43;
+	border-color:#23ad43;
+	color:#222;
+}
+.goodsState .goodsStateDel{
+	background-color:#7265ba;
+	border-color:#7265ba;
+	border-radius:2px;
+	width:120px;
+}
+.goodsState .goodsStateDel:active{
+	background-color:#6154b2;
+	color:#222;
+}

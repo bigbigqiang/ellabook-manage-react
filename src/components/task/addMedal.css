@@ -1,0 +1,21 @@
+.course .box{
+    margin: 20px 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+}
+.course .small_subTitle{
+    line-height: 32px;
+}
+.course .row{
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+.course .ant-upload-text{
+    display: none;
+}
+.course .img1 .ant-upload.ant-upload-select-picture-card,.course .img1 .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 150px;
+    height: 150px;
+}

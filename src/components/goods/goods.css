@@ -1,0 +1,187 @@
+.goodsListBox{
+	
+}
+.theSearch{
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	display: inline-block;
+	background-color: #27C14C;
+	color: white;
+	margin-left:0;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+}
+.goodsListBox .ant-table-tbody{
+	font-size:12px;
+}
+.goodsListTitle{
+	font-size: 16px;
+	line-height: 50px;
+	border-bottom: 1px solid #e3e6e6;
+	text-indent: 20px;
+}
+.rowPartWrap{
+	/*padding:0px 60px 15px 60px;*/
+}
+.rowPart{
+	/*padding-bottom:20px;*/
+}
+.t_center{
+	text-align:center;
+}
+.line{
+	color:#a9adb1;
+	line-height:30px;
+}
+.colTitle{
+	/*display:block;*/
+	line-height:30px;
+	font-size: 14px;
+	min-width: 85px;
+}
+hr{
+	border:none;
+	height: 1px;
+	background-color: #e3e6e6;
+}
+.goodsListBox .ant-table-thead > tr > th{
+	background-color:#23b8e6 !important;
+	padding:12px;
+}
+.goodsListBox .ant-table-header{
+	margin-bottom: -26px !important;
+}
+.addGoods{
+	padding: 0px 20px;
+}
+.rowPartWrap2{
+	padding:0 20px 20px 20px;
+}
+.rowPartWrap3{
+	position: relative;
+	padding:0px 20px 0px 20px;
+	height:100%
+}
+.submitWrap{
+	padding:30px 0px 30px 30px;
+	position: absolute;
+	bottom: -30px;
+    left: 20px
+}
+#goodsListAdd2{
+	margin-left: 100px;
+}
+#goodsListAdd3{
+	margin-left: 100px;
+}
+.rowPartWrap3 .ant-table-thead > tr > th, .rowPartWrap3 .ant-table-tbody > tr > td{
+	text-align: center;
+}
+.rowPartWrap3 .ant-table-thead > tr > th{
+	font-size:14px;
+	color:white;
+	border-bottom:0px solid ;
+}
+
+.paginationWrap{
+	position: absolute;
+    bottom: -65px;
+    left: 35%;
+    padding-bottom: 0px;
+}
+.rowPartWrap3{
+	min-height: 420px;
+}
+.adjustment{
+	/*// width:65%;
+	// position: absolute;
+	// bottom:100px;*/
+}
+.goodsListBox .ant-btn-primary{
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.goodsListBox .ant-btn-primary:hover{
+	background-color:#7265ba;
+	border-color:#7265ba;
+}
+.goodsListBox .ant-input-search-button{
+	color: #fff;
+	background-color: #1890ff;
+	border-color: #1890ff;
+}
+.checkbuttonWrap{
+	text-align:center;
+}
+.checkbutton{
+	/*// float: left;*/
+}
+.last{
+	margin-top: 10px;
+}
+.goodsListBox .ant-pagination-item-active{
+	background-color:#27c14c;
+	border-color:#27c14c;
+}
+.goodsListBox .ant-btn-primary{
+	border-radius:0px;
+}
+.goodsListBox .ant-calendar-picker{
+	margin: 0;
+}
+.goodsListModel .ant-modal-footer button+button{
+	display:none;
+}
+/*//按钮样式*/
+#goodsListQuery,#goodsListQuery2{
+	background-color:#27c14c;
+	border-color:#27c14c;
+	border-radius:2px;
+}
+#goodsListQuery:active,#goodsListQuery2:active{
+	background-color:#23ad43;
+	color:#222;
+}
+#goodsListAdd,#goodsListAdd2,#goodsListAdd3{
+	background-color:#7265ba;
+	border-color:#7265ba;
+	border-radius:2px;
+}
+#goodsListAdd:active,#goodsListAdd2:active,#goodsListAdd3:active{
+	background-color:#6154b2;
+	color:#222;
+}
+.checkbuttonWrap .ant-btn-primary{
+	border-radius:2px;
+	width: 120px;
+}
+.rowPartWrap3 .ant-table-tbody > tr > td{
+	padding:12px;
+}
+.goodsListBox .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+	overflow: hidden;
+    height: 70px;
+    padding-bottom: 0px;
+    padding-right: 16px;
+    background-color:#23b8e6;
+}
+ .goodsListBox .ant-table-tbody>tr{
+ 	background-color:white;
+ }
+ .Pagination{
+ 	/* position:fixed; */
+ 	text-align:center;
+ 	padding-top: 36px;
+ 	padding-bottom:70px;
+ 	left:40%;
+ 	bottom:70px;
+ }
+ .upAndDown{
+	/* position:fixed; */
+	bottom:120px;
+	padding-top:20px;
+ 	padding-left: 40px;
+ }

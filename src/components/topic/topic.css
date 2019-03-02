@@ -1,0 +1,70 @@
+.m-lt{
+    width: 200px;
+}
+.m-rt{
+    padding-left: 20px;
+    width: 527px;
+}
+.m-img-upload .avatar-uploader,
+.m-img-upload .avatar-uploader-trigger,
+.m-img-upload .avatar {
+    width: 400px;
+    height: 200px;
+    background: #edf1f2;
+    display: block;
+}
+.m-icon-upload .avatar-uploader,
+.m-icon-upload .avatar-uploader-trigger,
+.m-icon-upload .avatar {
+    width: 90px;
+    height: 90px;
+    background: #edf1f2;
+    display: block;
+}
+.avatar-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}
+.m-img-upload .ant-upload-list-picture-card .ant-upload-list-item, .m-img-upload .ant-upload.ant-upload-select-picture-card{
+    width: 344px;
+    height:180px;
+}
+.m-icon-upload .ant-upload-list-picture-card .ant-upload-list-item, .m-icon-upload .ant-upload.ant-upload-select-picture-card{
+    width: 90px;
+    height:90px;
+}
+.upLoad-center{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-img-upload{
+    float: left;
+    width: 400px;
+    height:200px;
+}
+.m-icon-upload{
+    float: left;
+    width: 90px;
+    height:90px;
+
+}
+.su-m-dt-bg,.su-m-dt-icon{
+    float: left;
+}
+
+.su-m-dt-bg img,.su-m-dt-bg{
+    width: 400px;
+    height:200px;
+}
+.su-m-dt-icon img,.su-m-dt-icon{
+    width: 90px;
+    height:90px;
+}
+.m-lt .img{
+    margin-right: 20px;
+}

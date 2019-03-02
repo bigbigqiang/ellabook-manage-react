@@ -1,0 +1,210 @@
+
+.m-book-bd .m-select{
+    line-height: 50px;
+}
+.m-book-bd .u-txt{
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 25px;
+}
+.g-book-table{
+    padding: 20px 0 0 0;
+    margin: 0 20px;
+}
+.g-book-table .ant-input-affix-wrapper .ant-input-suffix{
+    font-weight: bold;
+}
+.m-book-table{
+    margin: 0px 0 10px 0;
+}
+.m-book-table .ant-table-thead>tr>th{
+    background: #23B8E6 !important;
+    color:#fff !important;
+    font-size: 14px;
+    padding: 12px 8px;
+}
+.m-book-table .ant-table-bordered .ant-table-tbody > tr > td{
+    font-size: 12px;
+    padding: 12px 8px;
+}
+.m-book-table .ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr > td{
+    border-right: none !important;
+    text-align: center;
+    font-weight: normal;
+}
+.m-book-bd .ant-col-11{
+    text-align: right;
+}
+.u-btn-green{
+    font-size: 14px !important;
+    width: 120px;
+    height: 30px;
+    color: #fff !important;
+    background: #27c14c !important;
+    border-color: #27c14c !important;
+}
+.u-btn-green:active{
+    background: #23ad43 !important;
+    border-color: #23ad43 !important;
+    color: #073f14 !important;
+}
+.u-preview-btn{
+    padding: 0 6px;
+    border-left: 1px solid #b4bbbe;
+    border-right: 1px solid #b4bbbe;
+    display: inline-block;
+}
+.m-book-table tbody{
+    background: #fff;
+}
+.m-book-table .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    padding-right: 16px;
+    overflow: hidden;
+    height: 46px;
+    margin-bottom: 0px !important;
+    background: #23b8e6;
+}
+.m-book-table .ant-table-fixed-header .ant-table-scroll .ant-table-header table{
+    border: 1px solid #23b8e6;
+}
+
+
+
+/*2018 01 05 made by niepengfei*/
+.g-bookList{
+	min-width: 1060px;
+}
+.g-bookList .setSelect{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	background-color: #27C14C;
+	color: white;
+	
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	
+}
+
+.g-bookList .m-book-bd{
+	transition: 1s linear;
+	height: 0px;
+	overflow: hidden;
+}
+.g-bookList .m-inSel{
+	float: left;
+}
+.g-bookList .m-inSel:nth-child(2){
+	margin-left: 40px;
+}
+
+.g-bookList .upLoadBtn{
+	border: 1px solid gainsboro;
+	padding: 5px 10px;
+}
+
+.g-bookList #video{
+	display: none;
+}
+.g-bookList .ant-select-arrow:before{
+	display: none;
+}
+.g-bookList .yuLan{
+	border: none;
+	outline: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.g-bookList .yuLan .ant-select-selection__rendered{
+	margin: 0;
+	border: none !important;
+}
+.g-bookList .yuLan .ant-select-selection-selected-value{
+	padding: none !important;
+}
+
+.g-bookList .videoUploadBtn{
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	width: 70px;
+	margin-top: -52px;
+	margin-left: 365px;
+}
+.g-bookList .videoUploadBtn input{
+	position: absolute;
+	outline: none;
+	z-index: 100;
+	opacity: 0;
+}
+.g-bookList .videoUploadBtn p{
+	background-color: white;
+	border: none;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.g-bookList .yuLan .ant-select-selection.ant-select-selection--single{
+	border: none !important;
+	outline: none !important;
+}
+
+.g-bookList .yuLan .ant-select-selection-selected-value{
+	padding: 0px !important;
+	text-align: center;
+	margin: 0 auto !important;
+	width: 80px !important;
+	color: #1890FF;
+	border: none !important;
+}
+.g-bookList .yuLan .ant-select-selection__rendered:after{
+	height: 0px !important;
+}
+
+.g-bookList .yuLan .ant-select-selection__placeholder{
+	color: #1890FF;
+}
+.g-bookList .yuLan .ant-select-selection .ant-select-selection--single{
+	box-shadow: none !important;
+}
+
+.videoInfors{
+	width: 130px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	margin-left: -62.5px;
+	text-align: center;
+	font-size: 16px;
+	-webkit-box-shadow: #888 0px 0px 10px;  
+    -moz-box-shadow: #888 0px 0px 10px;  
+    box-shadow: #888 0px 0px 10px;  
+    background: white; 
+    z-index: 999;
+}
+.videoInfors1{
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 50%;
+	margin-left: -62.5px;
+	text-align: center;
+	font-size: 16px;
+	-webkit-box-shadow: #888 0px 0px 10px;  
+    -moz-box-shadow: #888 0px 0px 10px;  
+    box-shadow: #888 0px 0px 10px;  
+    background: white; 
+    z-index: 999;
+}
+.g-bookList .ant-select-selection__placeholder{
+	text-align: center;
+}

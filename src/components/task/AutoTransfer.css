@@ -1,0 +1,55 @@
+.autoTransfer{
+	width: 900px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.autoTransfer .transferLeft,.autoTransfer .transferRight,.autoTransfer .transferCenter{
+	float: left;
+}
+.autoTransfer .transferLeft,.transferRight{
+	width: 40%;
+	height: 400px;
+}
+
+.autoTransfer .transferCenter{
+	width: 20%;
+	height: 400px;
+	text-align: center;
+}
+
+.autoTransfer .transferAllOk,.autoTransfer .transferAllNo{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #27C14C;
+	color: white;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	display: inline-block;
+}
+.autoTransfer .transferAllOk{
+	margin-top: 190px;
+}
+.autoTransfer .transferAllNo{
+	margin-top: 70px;
+}
+
+.autoTransfer .transferSaves{
+	width: 120px;
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+	background-color: #27C14C;
+	color: white;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	margin-top: 47px;
+	margin-left: 389px;
+	float: left;
+}

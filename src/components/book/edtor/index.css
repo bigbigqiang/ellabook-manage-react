@@ -1,0 +1,83 @@
+.editorBook .aa{
+    width: 100%;
+    /* background-color:orchid; */
+    height: 39px; 
+    background-size:100% 100%;
+
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    line-height: 39px;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.editorBookBar{
+    width: 1440px;
+    margin: 0 auto;
+}
+.editorBook .title{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 8px;
+    font-size: 16px;
+}
+.editorBook .ant-tabs-bar{
+    display: none;
+}
+.bookPart .row{
+    margin-bottom: 30px;
+}
+.bookPart .colTitle{
+    text-align: left;
+    /*text-indent: 2em;*/
+}
+.bookPart .colTitle2{
+    text-align: left;
+}
+.bookPart .bar{
+    position: relative;
+    left: 5%;
+    line-height: 30px;
+}
+.poverText{
+    text-align: center;
+}
+.bookPart .ant-checkbox-group-item{
+    width: 85px;
+}
+.bookPart .ant-upload.ant-upload-select-picture-card,.bookPart .ant-upload-list-picture-card .ant-upload-list-item{
+    /* height: 225px;
+    width: 138.9px; */
+    height: 240px;
+    width: 177.9px;
+}
+.bookPart .screenshot .ant-upload.ant-upload-select-picture-card,.bookPart .screenshot .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 225px;
+    height: 138.9px;
+}
+.bookPart .ant-upload-text{
+    display: none;
+}
+
+/* .editorBook .aa .ant-steps-item-icon{
+    display: none;
+}
+.editorBook .aa .ant-steps-item-title::after{
+    display: none;
+
+} */
+.Imgcover .anticon-delete{
+	display:none;
+}
+.deletePrize{
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	background: #000;
+	font-size:15px;
+	color:#fff;
+	display:inline-block;
+	line-height: 16px;
+	text-align:center;
+}

@@ -1,0 +1,48 @@
+#h5Activity .title{
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#h5Activity .content{
+    padding: 0px 20px 0; 
+}
+#h5Activity .content .u-btn{
+
+}
+.ant-table-thead tr th{
+    background-color: #23b8e6;
+    color : white;
+    font-size: 14px;
+    font-weight: 400;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    padding: 0!important;
+}
+.ant-table-tbody tr td{
+    text-align: center;
+    padding: 12px 8px;
+    background-color: white;
+}
+#h5Activity .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    overflow: hidden;
+    height: 62px;
+    padding-right: 16px;
+    background-color: #23b8e6;
+    border-radius: 4px;
+}
+#h5Activity .erLogo{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    background-image: url('../../assets/images/ercodelogo.png');
+}
+.QRCode canvas {
+    width: 250px !important;
+    height: 250px !important;
+}
+#h5Activity .btn{
+    background-color: #675ca8;
+    border-color:#675ca8;
+}

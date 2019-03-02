@@ -1,0 +1,73 @@
+.userPage{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+	min-width: 1060px;
+}
+.right-box{
+	padding: 0;
+}
+
+.userTitle{
+	height: 44px;
+	line-height: 44px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #E0E2E2;
+	font-size: 16px;
+	color: #1D2B37 !important;
+	background-color: #EDF1F2;
+}
+.userTitle a{
+	color: #1D2B37 !important;
+}
+
+.allTap{
+	height: 66px;
+	box-sizing: border-box;
+	background-color: #F0F3F4;
+	margin-left: 30px;
+	margin-bottom: -0.5px;
+}
+.allTap li{
+	display: inline-block;
+	width: 160px;
+	height: 41px;
+	line-height: 41px;
+	box-sizing: border-box;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25.6px;
+	background-color: #F0F3F4;
+	border: none;
+	border-bottom: 1px solid #DDE5E7;
+	cursor: pointer;
+	margin-right: 2px;
+}
+
+.page{
+	width: auto;
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: white;
+	border: 1px solid #DDE5E7;
+}
+
+.userPage .allTap .liClick{
+	border:1px solid #DDE5E7;
+	border-bottom:none;
+	background-color:white;
+}
+.userPage .allTap .liNo{
+	border:none;
+	border-bottom:1px solid #DDE5E7;
+	background-color:#F0F3F4;
+}
+
+.userPage .allTap li:not(.liClick):hover{
+	background-color:#F6F8F8;
+	border:1px solid #DDE5E7;
+}
+

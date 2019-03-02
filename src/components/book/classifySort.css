@@ -1,0 +1,94 @@
+/*图书——分类排序*/
+.classifySort{
+	width: 100%;
+	background-color: #F0F3F4;
+	min-width: 1060px;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑",sans-serifa;
+}
+
+.classifySortTitle{
+	height: 45px;
+	line-height: 44px;
+	padding-left: 20px;
+	border-bottom: 1px solid #E0E2E2;
+	font-size: 16px;
+	/* color: #1D2B37; */
+}
+.classifySort .g-sortTable{
+	width: auto;
+	margin:20px 20px 0 20px;
+}
+.classifySort .t-nm-tab{
+	border-left: 1px solid #DDE5E7;
+}
+
+.classifySort .t-nm-tab .ant-table-thead>tr>th{
+	width: 33.33%;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	padding: 0 !important;
+	border: none;
+}
+.classifySort .t-nm-tab .ant-table-body{
+	border-right: 1px solid #E8E8E8;
+	background-color: white;
+}
+
+.classifySort .t-nm-tab .ant-table-tbody .ant-table-row:hover{
+	background-color: white !important;
+}
+
+.classifySort .t-nm-tab td{
+	width: 33.33%;
+	font-size: 12px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.classifySort .g-sortTbUp, .classifySort .g-sortTbDown{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	background-image: url(img/up1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+	top: 6px;
+}
+.classifySort .g-sortTbUp{
+	background-image: url(img/up1.png);
+	margin-right: 140px;
+}
+.classifySort .g-sortTbDown{
+	background-image: url(img/down1.png);
+}
+
+.classifySort .g-sortBtn{
+	display: block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	background-color: #27C14C;
+	border-radius: 2px;
+	margin: 25px auto auto auto;
+	cursor: pointer;
+}
+
+.classifySort .m-sortBookNum{
+	text-decoration: underline;
+	color: #1890FF;
+	cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.m-library-bd{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.m-library-bd .m-select{
+    width: 100%;
+    float: left;
+}
+.m-library-bd .m-inSel{
+    float: left;
+    margin-left: 20px;
+}
+.m-library-bd .m-expand-box{
+    padding: 20px;
+}
+.m-library-table{
+    padding: 20px;
+}

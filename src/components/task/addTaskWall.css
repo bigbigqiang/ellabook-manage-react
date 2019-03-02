@@ -1,0 +1,19 @@
+#addDutyLib .ant-form-item-label{
+   
+  width:110px;
+  
+  text-align: left;
+}
+
+#addDutyLib form{
+  padding-left:20px;
+}
+
+#addTaskWall .ant-modal-content {
+  width: 700px!important;
+}
+#addTaskWall .ant-table-thead>tr>th{
+  background: #DBF3FA!important;
+  color: #6BB3CD!important;
+  text-align: center !important;
+}

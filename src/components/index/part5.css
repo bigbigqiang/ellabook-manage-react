@@ -1,0 +1,121 @@
+.part5{
+    width: 100%;
+    /* height: 270px; */
+    background-color: #fff;
+    padding: 10px 0px;
+     margin-bottom: 5px;
+}
+.part5_top{
+    width: 100%;
+    height: 30px;
+   
+}
+.part5_top .title{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.part5_top .secondtitle{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    color:#666666
+   
+}
+.part5_top .more{
+    font-size: 12px;
+    color:#ccc ;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+.part5 .showBoxWrap{
+    width: 100%;
+    height: 150px;
+    overflow-x: scroll;
+}
+.part5 .showBox{
+    width:999999px;
+    
+}
+.part5 .showBox .item{
+    width: 260px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.part5 .showBox .item .item_inner{
+    padding: 10px;
+    overflow: hidden;
+}
+.part5 .showBox .item .item_inner img{
+    height: 110px;
+    float: left;
+}
+.part5 .item_title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    display:-webkit-box !important;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    word-break:normal;
+}
+.part5 .item_text{
+
+ display:-webkit-box !important;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ -webkit-box-orient: vertical;
+ -webkit-line-clamp:3;
+ word-break:normal;
+ color:#999999;
+}
+.part5 .item_textWrap{
+    height: 64px;
+}
+.part5 .item_right{
+    float: right;
+    width: 145px;
+}
+.part5 .item_right button{
+    float: right;
+    color:#fff;
+    border:none;
+    background-color: #FFC61F;
+    font-size: 12px;
+    width: 90px;
+    line-height: 26px;
+    border-radius: 13px;
+}
+.part5 .addSeniorMember{
+    
+    margin-bottom:20px;
+    margin-top:25px;
+    background-color: #fff;
+    height:50px;
+    padding-bottom:50px;
+    position:relative;
+    margin-left:10px;
+    box-sizing: border-box;
+}
+.part5 .addSeniorMember .bottomBanner{
+    width:100%;
+    height:50px;
+
+}
+.part5 .addSeniorMember .topBanner{
+    height:100px;
+    width:150px;
+    margin-left:130px;
+    margin-top:-55px;
+   
+    
+
+}

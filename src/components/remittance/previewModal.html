@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='format-detection' content='telephone=no'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimum-scale=1.0'>
+    <title>每日读绘本</title>
+    <script src='https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js'></script>
+    <style type='text/css'>
+        html {
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-hightlight-color: transparent;
+            -webkit-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body {
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+            font-size: 0.3rem;
+            background-color: #f6f6f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            color: #666;
+        }
+
+        .clearfix {
+            position: relative;
+        }
+
+        .clearfix:after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 0;
+            clear: both;
+        }
+
+        #wrapper {
+            width: 100%;
+            max-width: 640px;
+            min-width: 300px;
+            margin: 0 auto;
+            padding: 24px;
+            color: #434345;
+        }
+
+        #wrapper .info {
+            padding: 5px 0;
+            font-size: 12px;
+        }
+
+        #wrapper .title {
+            font-size: 24px;
+            padding-bottom: 5px;
+            font-weight: bold;
+        }
+
+        #wrapper .time,
+        #wrapper .author {
+            padding-left: 5px;
+            color: #999;
+        }
+
+        #wrapper .author {
+            color: #6a95c1;
+        }
+
+        #wrapper .content {
+            color: #676769;
+            padding-top: 0.5rem;
+            font-size: 14px;
+        }
+
+        #wrapper .content img {
+            max-width: 100%;
+        }
+
+        #wrapper .cover .coverImg {
+            display: block;
+            max-width: 100%;
+            margin: 5px auto 0;
+        }
+
+        #wrapper .recommend {
+            padding-top: 10px;
+        }
+
+        #wrapper .recommend .item {
+            margin-top: 20px;
+            padding: 12px 12px 6px 11px;
+            position: relative;
+            background-color: white;
+            box-shadow: 1px 2px 3px #eee;
+        }
+
+        #wrapper .recommend .item .label {
+            overflow: hidden;
+            height: 27px;
+            font-size: 13px;
+        }
+
+        #wrapper .recommend .item .label>i {
+            color: #AAAAAA;
+            border: 1px solid #D8D8D8;
+            border-radius: 20px;
+            padding: 2px 5px;
+            margin-right: 2px;
+            font-style: normal;
+            display: inline-block;
+            margin-bottom: 50px;
+            font-size: 12px;
+        }
+
+        #wrapper .recommend .bookCover {
+            float: left;
+            width: 35%;
+            display: block;
+        }
+
+        #wrapper .recommend .bookRight {
+            float: right;
+            width: 65%;
+            padding: 0 0 0 15px;
+        }
+
+        #wrapper .recommend .bookRight .titleH3 {
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 2px;
+            font-weight: normal;
+            margin-bottom: 5px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #333333;
+        }
+
+        #wrapper .recommend .bookRight .synopsis {
+            font-size: 12px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            color: #888;
+        }
+
+        #wrapper .recommend .bookRight .details {
+            position: absolute;
+            bottom: -1px;
+            right: 0.2rem;
+            border: 1px solid #40D8B1;
+            padding: 5px 20px;
+            border-radius: 20px;
+            color: #40D8B1;
+            font-size: 14px;
+            display: block;
+        }
+
+        .btn_share_Wrap {
+            width: 100%;
+            text-align: center;
+            padding: 80px 0px 120px 0px;
+        }
+
+        #btn_share {
+            border: 0px solid #40d8b0;
+            color: #40d8b0;
+            background-color: rgba(0, 0, 0, 0);
+            background-image: url(http://ellabook.cn/bookService1/img/btn.png);
+            background-size: 100%;
+            width: 160px;
+            height: 57px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 5px;
+        }
+    </style>
+    <script type='text/javascript'>    // document.documentElement.style.fontSize = document.documentElement.clientWidth / 10 + 'px';    document.title = '每日读绘本';</script>
+</head>
+
+<body>
+    <div id='wrapper'>
+        <header class='title'>" + this.state.dailyTitle + "</header>
+        <figure class='info'>
+            <span class='time'>" + this.state.effectDate.split(" ")[0] + "</span>
+            <span class='author'>" + this.state.authorName + "</span>
+        </figure>
+        <article>
+            <section class='cover'> " + titleImgSrc + "</section>
+            <section class='content'> " + decodeURIComponent(this.state.dailyContent) + "</section>
+            <section class='recommend'>
+                <ul id='itemContent'></ul>
+            </section>
+        </article>
+        <div class='btn_share_Wrap'>
+            <button id='btn_share'></button>
+        </div>
+    </div>
+    <script type='text/javascript'>    
+    $(function () { 
+        var list = " + JSON.stringify(this.state.bookSelectList).replace(/\"/g, '\'') + "; 
+        for (var i = 0; i < list.length; i++) { 
+            var obj = list[i];
+            var li = $('<li></li>'),
+            a = $('<a></a>'),
+            img = $('<img src=' + list[i].bookResourceList[0].ossUrl + ' />'),
+            div = $('<div></div>'), h3 = $('<h3>' + list[i].bookName + '</h3>'),
+            ul = $('<ul></ul>'), p = $('<p>' + list[i].bookIntroduction + '</p>'),
+            span = $('<span>查看详情</span>'); 
+            $(h3).appendTo($(div));
+            $(ul).appendTo($(div)); 
+            $(p).appendTo($(div));
+            $(span).appendTo($(div)); 
+            $(div).appendTo($(a));
+            $(img).appendTo($(a)); 
+            $(a).appendTo($(li));
+            $('#itemContent').append($(li));
+            $('#itemContent li').addClass('item');
+            $('#itemContent li a').addClass('clearfix');
+            $('#itemContent li a').eq(i).attr({ 
+                id: 'Link', 
+                href: 'ellabook2://detail.book?bookCode=' + obj.bookCode + '&method=ella.book.getBookByCode' 
+            });
+            $('#itemContent li a img').addClass('bookCover'); 
+            $('#itemContent li a div').addClass('bookRight');
+            $('#itemContent li a div h3').addClass('titleH3'); 
+            $('#itemContent li a div ul').addClass('label');
+            $('#itemContent li a div p').addClass('synopsis'); 
+            $('#itemContent li a div span').addClass('details');
+            var tagsH = obj.tags.split(',');
+            for (var j = 0; j < tagsH.length; j++) {
+                var tagHtml = $('<i>' + tagsH[j] + '</i>');
+                $('.label').eq(i).append($(tagHtml));
+            } 
+        } 
+        $('.clearfix').bind('click', function () { routeToTargetPage(this) });
+        $('#btn_share').bind('click', function () { routeToTargetPage2(); });
+        function routeToTargetPage2() {
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+            if (isAndroid) {
+                window.WebView.showSharePop(decodeURIComponent(decodeURIComponent(window.location.href)));
+            } else {
+                window.webkit.messageHandlers.showSharePop.postMessage(decodeURIComponent(decodeURIComponent(window.location.href)));
+            } 
+        } 
+        function routeToTargetPage(_this) { 
+            var href = _this.href;
+            console.log(href);
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+            if (isAndroid) { 
+                window.WebView.routeToTargetPage(href);
+                _this.href = 'javascript:void(0)';
+                setTimeout(function () { _this.href = href; }, 50) 
+            } 
+        } 
+    })
+</script>
+</body>
+
+</html>

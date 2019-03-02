@@ -1,0 +1,29 @@
+#ModalContent {
+    display: flex;
+}
+#ModalContent .bookList {
+    width: 460px;
+    flex-shrink: 0;
+}
+#ModalContent .ant-table-small > .ant-table-content > .ant-table-body{
+    margin: 0 !important;
+}
+#ModalContent  .table-footer{
+    display: flex;
+    height: 48px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+#ModalContent .ant-table-thead .ant-checkbox-wrapper{
+    position: absolute;
+    bottom: -44px !important;
+    left: -1px !important;
+    display: block !important;
+}
+#ModalContent>i{
+    display: block;
+    width: 1px;
+    background-color: #e8e8e8;
+    margin: 10px 15px;
+    flex-shrink: 0;
+}

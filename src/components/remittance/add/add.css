@@ -1,0 +1,42 @@
+
+.add_daily .ant-upload-list-picture-card .ant-upload-list-item{
+	width: 400px;
+	height: 200px;
+}
+.add_daily .ant-upload.ant-upload-select-picture-card{
+	width: 400px;
+	height: 200px;
+}
+.add_daily .ant-upload.ant-upload-select-picture-card>.ant-upload{
+	padding:80px 0px;
+}
+/* 让添加图片的文字不显示 */
+.add_daily .ant-upload-text{
+	display:none;
+}
+.add_daily .checkText{
+	/* margin-top: 180px; */
+	margin-bottom:10px;
+}
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+.showHtml .ant-modal-content{
+	top: -50px!important;
+	margin: 0 18px;
+}
+.three_btn , .three_btn:hover,.three_btn:focus{
+	background-color: #27c14c;
+    border-color: #27c14c;
+    border-radius: 2px;
+}
+.three_btn:active{
+	background-color: #23ad43;
+    color: #222;
+}

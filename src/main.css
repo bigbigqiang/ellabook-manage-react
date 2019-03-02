@@ -1,0 +1,278 @@
+body,html{
+    width: 100%;
+    height:100%;
+}
+.g-wrap{
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -moz-box-orient:horizontal;
+    -moz-box-direction:normal;
+    flex-direction:row;
+    -webkit-flex-direction:row;
+    font-family: "Microsoft YaHei";
+}
+/* 左侧导航固定宽度 */
+.m-lt-menu {
+    background: #373d41/*#1d2b37*/;
+    border-right: 0px solid #e9e9e9;
+    color: #fff;
+    min-height: 948px;
+}
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub{
+    background: #373d41/*#1d2b37*/ !important;
+    z-index: 5;
+}
+.t-nm-tab .ant-table-thead > tr > th{
+    background: #23b8e6;
+    color: #fff;
+    text-align: center;
+}
+.t-nm-tab .ant-table-content{
+    background: #fff;
+}
+.t-nm-tab .ant-table-bordered .ant-table-tbody > tr > td{
+    font-size: 12px;
+    /*background: #fff;*/
+}
+.t-nm-tab .ant-table-bordered .ant-table-thead > tr > th,.t-nm-tab .ant-table-bordered .ant-table-tbody > tr > td{
+    border-right: none;
+    text-align: center;
+    padding: 12px 8px;
+}
+.t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    height: 46px;
+    background: #23b8e6;
+    padding-right: 16px;
+}
+.t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header table{
+    border: 1px solid #23b8e6;
+}
+.t-nm-tab .ant-table-pagination.ant-pagination{
+    margin-top: 36px;
+}
+.ant-table table{
+    text-align: center;
+}
+/* logo样式 */
+.m-logo {
+    display: block;
+    margin: 20px auto;
+}
+.m-title{
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e2e2;
+    margin-bottom:20px;
+    font-size: 16px;
+}
+.m-title a{
+    color: rgba(0,0,0,.65);
+}
+.f-ft-14{
+    font-size: 14px;
+}
+.m-btn-add .ant-btn-primary{
+    background: #675ca8;
+    border: 1px solid #675ca8;
+}
+.m-btn-add{
+    margin-bottom: 20px;
+}
+
+.m-rt-content{
+    padding: 0 20px;
+}
+.m-lt{
+    width: 420px;
+    float: left;
+    overflow: hidden;
+}
+.m-rt{
+    overflow: hidden;
+}
+.chart-box {
+    margin-top: 30px;
+}
+.f-mt-24{
+    margin-top: 24px;
+}
+.ege {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.ege a {
+    color: #009688;
+    font-size: 16px;
+}
+
+.lastPic {
+    display: block;
+    margin: 16% auto 0;
+}
+
+.ani-box {
+    text-align: center;
+}
+.ant-pagination-item:not(.ant-pagination-item-active):hover,.ant-pagination-options-quick-jumper input:hover{
+    border-color: #27c14c !important;
+}
+.ant-pagination-item-active{
+    background-color: #27c14c !important;
+    border-color: #27c14c !important;
+}
+.ant-pagination-item:hover a{
+    color: #27c14c !important;
+}
+.ant-pagination-item-active a,
+.ant-pagination-item-active:hover a {
+    color: #fff !important;
+}
+.ant-pagination-options-quick-jumper input:focus{
+    border-color: #27c14c !important;
+    box-shadow: 0 0 0 2px rgba(39, 193, 76, 0.2);
+}
+.ant-pagination-prev:hover, .ant-pagination-next:hover, .ant-select-selection:hover{
+    border-color: #27c14c !important;
+}
+.ant-pagination-disabled:hover{
+    border-color: #d9d9d9 !important;
+}
+
+.ant-menu-vertical > .ant-menu-item{
+    padding: 0px 5px !important;
+    cursor: pointer;
+}
+.m-icon-type .anticon{
+    cursor: pointer;
+}
+
+.i-action-ico{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.i-stick{
+    width: 20px;
+    height: 18px;
+    background: url('assets/images/stick.png') no-repeat center 1px;
+    background-size: 100% 100%;
+}
+.i-edit{
+    background: url('assets/images/icon1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.i-up{
+    background: url('assets/images/icon5.png') no-repeat;
+    background-size: 100% 100%;
+}
+.i-down{
+    background: url('assets/images/icon3.png') no-repeat;
+    background-size: 100% 100%;
+}
+.i-delete{
+    background: url('assets/images/icon2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.i-link{
+    background: url('assets/images/link.png') no-repeat;
+    background-size: 100% 100%;
+}
+.i-play{
+    background: url('assets/images/play.png') no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+.m-modal .ant-modal{
+    top: 20%;
+}
+/* TODO:公共样式 */
+#rightWrap .ant-menu-horizontal{
+    background-color: #373d41
+}
+.ant-table-thead tr th,.ant-table-tbody tr td{
+    font-size: 12px;
+}
+.ant-menu-dark .ant-menu-item-active, .ant-menu-dark .ant-menu-item:hover{
+    background: #7b7d7c45 !important;
+}
+#leftMenu .ant-menu.ant-menu-dark .ant-menu-item-selected{
+    background-color: #00c1de !important;
+}
+.ant-tabs-nav-scroll{
+    text-align: center;
+}
+/*公共间隔距离右边设置*/
+.intervalRight{
+    margin-right:30px!important;
+}
+/*公共间隔底部设置*/
+.intervalBottom{
+    margin-bottom:20px!important;
+}
+/*按钮统一宽度设置*/
+.buttonWidth{
+    width:120px!important;
+}
+/*下拉框统一宽度设置*/
+.selectWidth{
+    width:130px;
+}
+/*搜索框统一宽度设置*/
+.searchWidth{
+    width:400px!important;
+}
+.part{
+    display:inline-block;
+    margin-right: 30px;
+    margin-bottom:20px;
+}
+.part .u-txt{
+    font-size: 14px;
+    vertical-align: middle;
+    height:32px;
+    line-height: 32px;
+    margin-top: 0!important;
+    display:inline-block;
+    margin-right:10px;
+}
+/*多出部分以省略号显示*/
+
+.td_hide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 80px;
+}
+.disCountPrice ::-webkit-input-placeholder{
+    font-size:12px;
+}
+
+.disCountPrice ::-moz-input-placeholder{
+    font-size:12px;
+}
+
+.disCountPrice ::-ms-input-placeholder{
+    font-size:12px;
+}
+.ant-checkbox-group-item{
+    margin-top:3px!important;
+}
+.el-tr-gary td{
+    background-color: #ccc !important;
+}
+.el-tr-red td{
+    background-color: #ff4f4f !important;
+}

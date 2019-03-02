@@ -1,0 +1,49 @@
+.addPublish{
+	width: 100%;
+	height: 100%;
+}
+.addPublish .publong,.addPublish .pubShort{
+	display: inline-block;
+	margin-top: 20px;
+}
+.addPublish .publong{
+	width: 750px;
+}
+.addPublish .publong .editDetails{
+	width: 460px;
+}
+.addPublish .pubShort{
+	width: 470px;
+}
+.addPublish .pubShort .editDetailsShort{
+	width: 300px;
+}
+
+.addPublish .publishSave{
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	background-color: #27C14C;
+	color: white;
+	margin: 0 auto;
+	font-size: 14px;
+	border-radius: 2.3px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+.addPublish .specialDiv{
+	position: relative;
+	top: -21px;
+	left: 142px;
+}
+.addPublish .pubIcon{
+	font-size: 16px;
+	float: right;
+}
+.addPublish .pubIcon1{
+	font-size: 16px;
+}
+.addPublish .newName{
+	width: 200px;
+}

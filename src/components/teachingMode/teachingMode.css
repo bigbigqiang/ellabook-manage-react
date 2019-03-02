@@ -1,0 +1,72 @@
+
+.m-teaching-box{
+	margin:10px;
+}
+.m-teaching-box .ant-carousel .slick-dots,.m-teaching-box .ant-carousel .slick-dots li button{
+	height: 20px;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 4em;
+  background: #ccc;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+.m-teaching-box .ant-carousel .slick-dots{
+	width: auto;
+	right: 10px;
+}
+.m-teaching-box .ant-carousel .slick-dots li button{
+	width: 20px;
+	color: #000;
+	font-size: 12px;
+}
+.m-teaching-box .ant-carousel .slick-dots li.slick-active button{
+	width: 28px;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.m-teaching-box  .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+.m-teaching-box .edui-default .edui-editor-toolbarboxinner{
+	background: #ccc;
+}
+.ant-carousel .slick-active{
+	z-index: 1;
+}
+.ant-modal-body img{
+	max-width: 100%;
+}
+.m-teaching-preview .ant-modal-body{
+	height: 500px;
+	position: relative;
+	display: flex;
+}
+.ant-modal-body .m-pw-lt{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ant-modal-body .m-pw-rt{
+	width: 25%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 24px;
+	background: #7a7a7a;
+	color: #fff;
+	height: 500px;
+}
+.ant-modal-body .m-pw-rt p{
+	margin: 0;
+}
+
+#teachingWrap .slick-slide{
+	/*width:1010px!important;*/
+}
+

@@ -1,0 +1,33 @@
+.add-partner-btn{
+    /*width: 120px !important;*/
+    background-color: #7265ba;
+    border-color: #7265ba;
+    border-radius: 2px;
+    margin: 20px 0 0 20px;
+}
+.g-first .ant-btn-primary:focus, .ant-btn-primary:hover{
+    background-color: #7265ba !important;
+    border-color: #7265ba !important;
+}
+.m-first-bd{
+    padding:0 20px;
+}
+.m-first-bd .m-select{
+    margin-top: 20px;
+}
+
+.m-first-bd .u-btn{
+    font-size: 14px !important;
+    width: 120px;
+    height: 30px;
+    color: #fff !important;
+    background: #27c14c !important;
+}
+.m-first-bd .ant-btn:hover,.m-first-bd .ant-btn:focus{
+    border-color: #23ad43 !important;
+}
+.m-first-bd .u-btn:active{
+    background: #23ad43 !important;
+    border-color: #23ad43 !important;
+    color: #03300d !important;
+}

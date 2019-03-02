@@ -1,0 +1,31 @@
+.add label{
+	font-size: 14px;
+}
+.add .ant-form-item-label{
+	padding-right: 15px
+}
+.add .ant-select-selection--multiple{
+	min-height: 140px;
+	margin: 0px 0px 0px 0px;
+}
+.add .addAndMud{
+	font-size: 24px;
+    cursor : pointer;
+    color:#27c14c;
+}
+.add .addAndMud:active{
+	color:#23ad43;
+}
+.add .submit{
+	margin-top: 20px;
+	width:100px;
+	background-color: #27c14c;
+	border-color: #27c14c;
+}
+.add .submit:active{
+	background-color:#23ad43;
+	color:black;
+}
+.add .totle_num{
+	text-align: right;
+}

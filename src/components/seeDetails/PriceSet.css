@@ -1,0 +1,37 @@
+.priceWrap{
+	padding:10px 0px 20px 40px;
+}
+.addPriceWarp{
+	text-align: center;
+	margin: 10px auto;
+}
+.priceWrap .ant-table-thead tr th{
+	text-align:center;
+}
+.priceWrap .ant-table-row td{
+	text-align:center;
+}
+.inputPrice{
+	width:60px;
+}
+.priceWrap .ant-table-thead > tr > th{
+	background-color: #f6f8f8 !important;
+	color:#38434d !important;
+}
+.priceWrap .ant-table{
+	border-radius: 0;
+}
+.priceWrap .ant-btn-primary{
+	width: 120px;
+	background-color: #27c14c;
+	border-color:#27c14c;
+}
+.priceWrap .ant-btn-primary:hover{
+	background-color:#7265ba;
+	border-color:#7265ba;
+}
+.priceWrap .ant-btn-primary:active{
+	background-color:#23ad43;
+	border-color:#23ad43;
+	color:#222;
+}

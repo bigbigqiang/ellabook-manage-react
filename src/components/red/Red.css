@@ -1,0 +1,15 @@
+.red_box .ant-card{
+	border-radius: 10px;
+}
+.red_box .small_title{
+	position:relative;
+    top:-8px;
+    font-size:20px;
+    padding-left:20px;
+    line-height:20px;
+}
+.red_box .ant-card:hover{
+	opacity: 0.95;
+	transform: scale(1.02);
+	transition:0.5s;
+}

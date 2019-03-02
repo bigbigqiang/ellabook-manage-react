@@ -1,0 +1,56 @@
+.contentWrap{
+	padding:20px 0px 20px 40px; 
+}
+.addContentWarp{
+	text-align: center;
+	margin: 10px auto;
+}
+.inputPrice{
+	width:50px;
+}
+.resultItemWarp{
+	
+}
+.resultItem{
+	text-indent: 2em;
+	line-height: 30px;
+	color:#aaa;
+}
+.contentWrap .ant-table-row td{
+	text-align:center;
+}
+.contentWrap .ant-table-thead tr th,.contentWrap .ant-table-tbody  tr   td{
+	text-align:center;
+	font-size: 14px;
+	padding:12px 8px;
+}
+.resultItem{
+	cursor: pointer;
+}
+.contentWrap .ant-table-thead > tr > th{
+	background-color: #f6f8f8 !important;
+	color:#38434d !important;
+}
+.contentWrap .ant-table{
+	border-radius: 0;
+}
+h3{
+	line-height:40px;
+}
+hr{
+	border:none;
+	background-color:#ebf0f1;
+	height: 2px;
+}
+.addModal{
+	width:600px!important;
+}
+/*.addModal .ant-table-thead{
+	padding-left: 17px!important;
+}*/
+.total_space{
+	text-align: right;
+	font-size: 16px;
+    font-weight: 700;
+    color: red;
+}

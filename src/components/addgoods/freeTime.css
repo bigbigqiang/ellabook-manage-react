@@ -1,0 +1,9 @@
+.freeTimeModel{
+    width: 720px !important;
+}
+.freeTimeModel .row{
+    margin-bottom: 10px;
+}
+.freeTimeModel .ant-radio-wrapper{
+    margin-right: 50px;
+}

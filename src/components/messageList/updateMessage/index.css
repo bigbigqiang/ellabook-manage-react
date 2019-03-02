@@ -1,0 +1,27 @@
+#updateMessage .title{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 8px;
+    font-size: 16px;
+}
+#updateMessage .box{
+    margin: 20px 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+}
+#updateMessage .small_subTitle{
+    line-height: 32px;
+}
+#updateMessage .row{
+    margin-bottom: 24px;
+}
+#updateMessage .bar{
+    text-align: center;
+    line-height: 32px;
+}
+#updateMessage .box .subTitle{
+    line-height: 40px;
+    font-size: 16px;
+}

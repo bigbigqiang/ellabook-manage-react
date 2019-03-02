@@ -1,0 +1,15 @@
+#AddListenBookTopic .ant-upload.ant-upload-select-picture-card,#AddListenBookTopic .ant-upload-list-picture-card .ant-upload-list-item{
+    height: 120px !important;
+    width: 120px !important;
+}
+#AddListenBookTopic .left{
+    width: 150px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    float: left;
+}
+#AddListenBookTopic .right{
+    width: 600px;
+    padding-left: 30px;
+    float: left;
+}

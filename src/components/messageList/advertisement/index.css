@@ -1,0 +1,30 @@
+#advertisement .title{
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 8px;
+    font-size: 16px;
+}
+#advertisement .box{
+    margin: 20px 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+}
+#advertisement .box .subTitle{
+    line-height: 40px;
+    font-size: 16px;
+}
+#advertisement .small_subTitle{
+    line-height: 32px;
+}
+#advertisement .row{
+    margin-bottom: 24px;
+}
+#advertisement .ant-upload.ant-upload-select-picture-card,#advertisement .ant-upload-list-picture-card .ant-upload-list-item{
+    width: 200px;
+    height: 200px;
+}
+#advertisement .ant-upload-select-picture-card .ant-upload-text{
+    display: none;
+}

@@ -1,0 +1,253 @@
+/*添加新图书*/
+#addNewBook .ant-input-group-addon{
+  padding:0;
+  border: none;
+}
+/*#addNewBook thead th:nth-child(1){
+	width:30px!important;
+	height:30px!important;
+	position:absolute;
+	left:0;
+	bottom:0;
+}*/
+#addNewBook .ant-btn{
+  border-radius: 0px;
+}
+.th-bg .ant-table-thead>tr>th,
+#addNewBook .ant-table-thead>tr>th{
+  text-align: center !important;
+  background: #23b8e6!important;
+  color:#fff;
+  font-size: 14px;
+}
+#addNewBook .ant-table-tbody>tr>td, #addNewBook .ant-table-thead>tr>th{
+  font-size: 12px;
+  padding:8px;
+}
+#addNewBook .ant-table-thead>tr>th{
+  font-size: 14px;
+}
+#addNewBook .ant-btn:focus, #addNewBook .ant-btn:hover {
+  color: #108ee9!important;
+  background-color: #fff!important;
+  border-color: #108ee9!important;
+}
+.th-bg>div,
+.th-bg .ant-modal-content{
+  width:860px!important;
+}
+/*.th-bg .ant-modal-content .ant-table-theasd .ant-checkbox-inner{
+  display: none;
+}*/
+.th-bg .ant-table-tbody>tr>td, .th-bg .ant-table-thead>tr>th{
+  font-size: 12px;
+  padding:12px;
+  text-align: center;
+}
+.th-bg .ant-table-thead>tr>th{
+  font-size: 14px;
+}
+#addNewBook .ant-table-pagination{
+  position:relative;
+  z-index:9;
+}
+#addNewBook .ant-table-thead>tr>th,
+#addNewBook .ant-table-thead>tr>td{
+  padding:10px 8px
+}
+/*#addNewBook .ant-table-thead>tr>th .ant-checkbox-inner{
+  display: none;
+}*/
+#addNewBook .ant-input-group-wrapper{
+  margin-top: 0;
+  top: -4px!important;
+}
+#offsetCol .ant-col-offset-1{
+  margin-left: 3.16666667%;
+}
+
+/*图书列表*/
+#Recommend .ant-table-tbody{
+  background: #fff!important;
+}
+#Recommend .ant-table-content .ant-table-thead>tr>th,
+#Recommend .ant-table-thead>tr>th{
+  text-align: center !important;
+  background: #23b8e6!important;
+  color:#fff;
+  font-size: 14px;
+  padding:12px 8px;
+}
+/*#Recommend .ant-table-pagination{*/
+  /*margin:16px auto;*/
+  /*text-align: center;*/
+  /*float:inherit;*/
+/*}*/
+#Recommend .ant-btn{
+  border-radius: 0px;
+ /* border-color: #27c14c;*/
+  border-radius: 4px;
+}
+#Recommend .u-btn-add{
+  margin-bottom: 0px!important;
+  background: #675ca8;
+  border: 1px solid #675ca8;
+  border-radius: 4px;
+}
+#Recommend .u-btn-add:focus,#Recommend .u-btn-add:hover{
+  color: #fff;
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+#Recommend .ant-table-tbody>tr>td{
+  text-align: center;
+  padding:12px;
+  font-size: 12px;
+}
+
+/*添加新推荐*/
+#addRecommend .ant-radio-wrapper{
+  font-size: 14px;
+}
+#addRecommend .ant-form-item-label label{
+  font-size: 14px;
+}
+#addRecommend .ant-table-thead>tr>th{
+  background:#DBF3FA!important;
+  color:#6BB3CD!important;;
+  text-align: center !important;
+}
+#addRecommend .ant-table-tbody{
+  background: #fff!important;
+}
+#addRecommend .ant-table-tbody>tr>td{
+  text-align: center !important;
+  padding:12px;
+  font-size: 12px;
+}
+
+#addModal .ant-modal-content{
+  top:45px!important;
+}
+#addRecommend .ant-btn-add{
+  background-color: #23b8e6;
+  border-color: #6bd0ef;
+}
+#addRecommend .ant-btn-add:hover{
+  background-color: #49a9ee;
+  border-color: #49a9ee;
+}
+#addRecommend .ant-btn-blue{
+  background-color: #27c14c;
+  border-color: #27c14c;
+}
+.anticon{
+  cursor: pointer;
+}
+#offsetCol .ant-select-lg .ant-select-selection--single{
+  height: 32px;
+}
+#offsetCol .ant-select-lg .ant-select-selection__rendered{
+  line-height: 32px;
+}
+#offsetCol .ant-select-lg{
+  top:0px!important;
+}
+#Recommend .ant-table-scroll .ant-table-header{
+  overflow: hidden;
+  height:64px;
+  padding-right: 17px;
+  background-color: #23b8e6;
+}
+.addModal .ant-modal-content{
+  margin-top:130px;
+}
+.editorModal.ant-modal-content{
+  margin-top:0px;
+}
+.m-rt-content .u-txt{
+  font-size: 14px;
+  vertical-align: middle;
+  line-height: 25px;
+  position: relative;
+  bottom: 2px;
+}
+.m-rt-content .m-select{
+ /* line-height: 50px;*/
+  margin-bottom: 20px;
+}
+
+.m-select .ant-btn-primary{
+	/*background-color: #27c14c;
+  border-color: #27c14c;*/
+  border-radius: 0;
+}
+
+#Recommend .m-rt-content{
+  padding: 0px 20px 0;
+}
+.slideRight{
+	float:right;
+}
+.slideAll{
+	overflow: hidden;
+	margin-bottom:16px;
+}
+.addModal .ant-modal-body{
+	padding:15px 20px 0!important;
+}
+.u-btn,.addbtn {
+    font-size: 14px!important;
+    width: 100px;
+    height: 30px;
+    color: #fff!important;
+    background: #27c14c!important;
+}
+.ant-table-thead .ant-checkbox-wrapper{
+		position:absolute;
+		bottom: -57px;
+    left: 17px;
+    display:none;
+    
+}
+.curSelected{
+	position:absolute;
+	bottom: 20px;
+  left: 118px;
+  display:none;
+}
+.allchecks{
+	display:none;
+}
+.u-txt {
+    display: inline-block;
+    margin-top: 5px;
+}
+.ant-layout-footer{
+	background:#fff!important;
+	
+}
+.ant-input-group{
+	 display: table!important;
+}
+.addModal .ant-table-thead tr th {
+   
+    height: 38px!important;
+    line-height: 38px!important;
+   
+}
+.addModal .ant-table-header{
+	 overflow: hidden!important;
+	 padding-bottom: 17px!important;
+	 padding-right: 17px;
+}
+.addModal th{
+	border-right:0!important;
+}
+
+.addcourseModal .ant-modal-content{
+	width:500px!important;
+}
+#Recommend .ant-table-header{
+	margin-bottom: -18px!important;
+}

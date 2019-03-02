@@ -1,0 +1,31 @@
+.m-content{
+	width: 100%;
+}
+.m-content .ant-form-item-label{
+	width: 150px;
+	float: left;
+}
+.m-content .ant-form-item-control-wrapper{
+	float: left;
+}
+.u-open-pop{
+	color:#1890ff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.t-nm-tab-modal .ant-table-tbody>tr>td,.t-nm-tab-modal .ant-table-small{
+	border: none;
+	text-align: center;
+}
+.t-nm-tab-modal .ant-table-tbody>tr>td:first-child{
+	text-align: left;
+	/* padding-left: 60px; */
+}
+.t-nm-tab-modal .ant-table-pagination.ant-pagination{
+	text-align: center;
+	float: initial;
+	text-align: center;
+}
+.t-nm-tab-modal .ant-table-thead>tr>th{
+	background-color: #23b8e6 !important;
+}

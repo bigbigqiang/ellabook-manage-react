@@ -1,0 +1,35 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 48px;
+    padding: 0 24px;
+    cursor: pointer;
+    color: #fff;
+    transition: color .3s;
+  }
+  #components-layout-demo-custom-trigger .ant-layout-header {
+      height: 48px !important;
+      line-height: 48px !important;
+  }
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    height: 32px;
+    background-image: url('../../assets/images/logo.png');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #components-layout-demo-custom-trigger .logo-small {
+    height: 32px;
+    margin: 16px;
+    height: 32px;
+    background-image: url('../../assets/images/logoSmall.png');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  

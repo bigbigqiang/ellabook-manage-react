@@ -1,0 +1,41 @@
+#AddClassifiedBook .classification{
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 40px;
+    display: flex;
+}
+#AddClassifiedBook .classification .mainClassification  {
+    width: 170px;
+    flex-shrink: 0;
+}
+#AddClassifiedBook .classification .mainClassification>span{
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+#AddClassifiedBook .classification>i{
+    display: block;
+    width: 1px;
+    background-color: #d1d0d0;
+    margin: -10px 40px -10px 15px;
+    flex-shrink: 0;
+}
+#AddClassifiedBook .classification .subclass  {
+    flex:1;
+}
+#AddClassifiedBook .t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header{
+    background:#DBF3FA!important;
+}
+#AddClassifiedBook .t-nm-tab .ant-table-fixed-header .ant-table-scroll .ant-table-header table{
+    border: none!important;
+}
+#AddClassifiedBook .ant-table-thead>tr>th{
+    background:#DBF3FA!important;
+    color:#6BB3CD!important;;
+    text-align: center !important;
+}
+#AddClassifiedBook  .ant-btn-add{
+    background-color: #23b8e6;
+    border-color: #6bd0ef;
+}
+
