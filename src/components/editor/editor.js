@@ -99,7 +99,6 @@ class Editor extends React.Component {
               console.log(data);
               //获取后端提供的图片这里执行resolve
               resolve(data.data)
-              // resolve('http://member.ellabook.cn/1830f0d02e30417ebc0958c808782931.jpeg?Expires=1829034032&OSSAccessKeyId=wCSYOmYFgJmttmWs&Signature=75kogHVjgXWIkGuJPkJSt7IAQOk%3D')
             }
           }
 
