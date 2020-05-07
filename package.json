@@ -46,7 +46,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-runtime": "^6.23.0",
     "copy-to-clipboard": "^3.0.8",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "md5": "^2.2.1",
     "qrcode-react": "^0.1.16",
     "qrcode.react": "^0.8.0",
